@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		027C09EF0F4CD40C145C1667 /* SunRiseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485EA3970B4601829FC82BDA /* SunRiseApp.swift */; };
+		25F64A0FECB252BCAFF012B6 /* earth-day.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E79E68AC5D8F735B57BF689 /* earth-day.jpg */; };
+		45AB8B26AD57DFCF2C087057 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F4746E81210A15D7327889 /* Assets.xcassets */; };
+		58ACB98F587A993FF45DE8EF /* earth-night.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 602AA20BCABFAC6FEBEBCC3C /* earth-night.jpg */; };
+		6AFAF4809AD485FCD1A2ECA6 /* MapOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3062A6250DDBDD286A598F16 /* MapOverlay.swift */; };
+		77DAC7058F78980202C4BF82 /* GlobeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D687EF38D912B69402DCE /* GlobeView.swift */; };
+		88582FCB180AE9E712912FB9 /* countries.geojson in Resources */ = {isa = PBXBuildFile; fileRef = CDDE202E861EBFD53A6C4569 /* countries.geojson */; };
+		C5209FDBF9012EDB1ACA155F /* Solar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2653BA7C6EFA14C4086A5C4 /* Solar.swift */; };
+		E60EFE2B2CF53159E1893F65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E3C63D76F57661CF147CF3 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3062A6250DDBDD286A598F16 /* MapOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapOverlay.swift; sourceTree = "<group>"; };
+		433D687EF38D912B69402DCE /* GlobeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeView.swift; sourceTree = "<group>"; };
+		485EA3970B4601829FC82BDA /* SunRiseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunRiseApp.swift; sourceTree = "<group>"; };
+		4E79E68AC5D8F735B57BF689 /* earth-day.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "earth-day.jpg"; sourceTree = "<group>"; };
+		602AA20BCABFAC6FEBEBCC3C /* earth-night.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "earth-night.jpg"; sourceTree = "<group>"; };
+		9BE7F20C717BDE76EDD07C43 /* SunRise.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SunRise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F4746E81210A15D7327889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDDE202E861EBFD53A6C4569 /* countries.geojson */ = {isa = PBXFileReference; path = countries.geojson; sourceTree = "<group>"; };
+		E2653BA7C6EFA14C4086A5C4 /* Solar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solar.swift; sourceTree = "<group>"; };
+		F3E3C63D76F57661CF147CF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		468F76BDC69025123C450A79 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E2653BA7C6EFA14C4086A5C4 /* Solar.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8130156191ECA36ED2D5CF21 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CDDE202E861EBFD53A6C4569 /* countries.geojson */,
+				4E79E68AC5D8F735B57BF689 /* earth-day.jpg */,
+				602AA20BCABFAC6FEBEBCC3C /* earth-night.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		983F0B291A9C8D2BCC7B28B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BE7F20C717BDE76EDD07C43 /* SunRise.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD8E340BC824B8C0E62A5C79 /* SunRise */ = {
+			isa = PBXGroup;
+			children = (
+				A1F4746E81210A15D7327889 /* Assets.xcassets */,
+				485EA3970B4601829FC82BDA /* SunRiseApp.swift */,
+				468F76BDC69025123C450A79 /* Models */,
+				8130156191ECA36ED2D5CF21 /* Resources */,
+				D228F4CA6AB405A0CC8AB0EE /* Views */,
+			);
+			path = SunRise;
+			sourceTree = "<group>";
+		};
+		D228F4CA6AB405A0CC8AB0EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F3E3C63D76F57661CF147CF3 /* ContentView.swift */,
+				433D687EF38D912B69402DCE /* GlobeView.swift */,
+				3062A6250DDBDD286A598F16 /* MapOverlay.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FFC498CA78D51AFF8CF9892E = {
+			isa = PBXGroup;
+			children = (
+				BD8E340BC824B8C0E62A5C79 /* SunRise */,
+				983F0B291A9C8D2BCC7B28B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		796767029ED87627837A7F65 /* SunRise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 649BFAF56891E500CF8A26EA /* Build configuration list for PBXNativeTarget "SunRise" */;
+			buildPhases = (
+				5FAB5759AA57DB2E1258C60C /* Sources */,
+				E9B24AC6A88EA1AEB4AD3E01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SunRise;
+			packageProductDependencies = (
+			);
+			productName = SunRise;
+			productReference = 9BE7F20C717BDE76EDD07C43 /* SunRise.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0171190B003CF31840CCE9E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 112FFF41907178D350CE900A /* Build configuration list for PBXProject "SunRise" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = FFC498CA78D51AFF8CF9892E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 983F0B291A9C8D2BCC7B28B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				796767029ED87627837A7F65 /* SunRise */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9B24AC6A88EA1AEB4AD3E01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45AB8B26AD57DFCF2C087057 /* Assets.xcassets in Resources */,
+				88582FCB180AE9E712912FB9 /* countries.geojson in Resources */,
+				25F64A0FECB252BCAFF012B6 /* earth-day.jpg in Resources */,
+				58ACB98F587A993FF45DE8EF /* earth-night.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FAB5759AA57DB2E1258C60C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E60EFE2B2CF53159E1893F65 /* ContentView.swift in Sources */,
+				77DAC7058F78980202C4BF82 /* GlobeView.swift in Sources */,
+				6AFAF4809AD485FCD1A2ECA6 /* MapOverlay.swift in Sources */,
+				C5209FDBF9012EDB1ACA155F /* Solar.swift in Sources */,
+				027C09EF0F4CD40C145C1667 /* SunRiseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		322A8EA79E87A12E321CE66F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "逐光";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunrise.earth;
+				PRODUCT_NAME = SunRise;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5F72BF2B8FA0A8AA2541E868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6CCCDD1CC566808DEB64F71B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "逐光";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunrise.earth;
+				PRODUCT_NAME = SunRise;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB42C86259967F092223E7D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		112FFF41907178D350CE900A /* Build configuration list for PBXProject "SunRise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F72BF2B8FA0A8AA2541E868 /* Debug */,
+				BB42C86259967F092223E7D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		649BFAF56891E500CF8A26EA /* Build configuration list for PBXNativeTarget "SunRise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CCCDD1CC566808DEB64F71B /* Debug */,
+				322A8EA79E87A12E321CE66F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0171190B003CF31840CCE9E1 /* Project object */;
+}
